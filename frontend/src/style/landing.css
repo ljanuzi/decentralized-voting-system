@@ -1,0 +1,54 @@
+  .landingHeader {
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 2rem;
+  }
+  
+  .mainHeader {
+    font-size: 3em;
+    font-weight: bold;
+    /* color: #ffffff; */
+  }
+  
+  .leftColumn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rightColumn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .subHeader {
+    margin-bottom: 1.5rem;
+  }
+  
+  .ui.button {
+    width: 80%;
+    padding: 1rem 0;
+    font-size: 1.5em;
+  }
+  
+  .customImage {
+  width: 200px;
+  height: auto;
+  }
+
+  .verticalDivider {
+    border-left: 2px solid #ccc;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+  }
+
+
+  

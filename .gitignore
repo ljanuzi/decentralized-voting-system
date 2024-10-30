@@ -1,0 +1,6 @@
+middleware/node_modules
+.env
+google_auth.json
+blockchain/node_modules
+blockchain/build
+key.pem

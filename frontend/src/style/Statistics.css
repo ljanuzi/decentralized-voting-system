@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.chart-container {
+    background-color: #4b5d67;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

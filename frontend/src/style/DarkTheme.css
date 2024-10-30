@@ -1,0 +1,63 @@
+body {
+  background-color: #4b5d67;
+  color: #d8e0e8;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Teal button */
+.ui.button {
+  background-color: #77b1a9 !important;
+  color: #ffffff !important;
+}
+
+.ui.button:hover {
+  background-color: #c4aa33 !important;
+}
+
+/* Accent color */
+.accent-element {
+  color: #c4aa33;
+}
+
+/* Highlight color */
+.highlight-element {
+  background-color: #c9f0d3;
+  color: #4b5d67;
+}
+
+/* Header styles */
+.ui.header.mainHeader {
+  color: #d8e0e8 !important; /* Ensuring the main header uses the theme color */
+}
+
+.ui.header.subHeader {
+  color: #77b1a9 !important; /* Ensuring the sub headers use the theme accent color */
+}
+
+/* Custom Segment */
+.formSegment {
+  background-color: #4b5d67 !important; /* Match the background color */
+  border: none !important; /* Remove border */
+  box-shadow: none !important; /* Remove box shadow */
+}
+
+/* Custom Input */
+.publicKeyInput input {
+  background-color: #d8e0e8 !important;
+  color: #77b1a9 !important;
+}
+
+/* Custom Image */
+.customImage {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Custom form input */
+.customInput input {
+  background-color: #d8e0e8 !important; /* Background color */
+  color: #313131 !important; /* Text color */
+  border: none !important; /* Remove default border */
+  box-shadow: none !important; /* Remove default box-shadow */
+}

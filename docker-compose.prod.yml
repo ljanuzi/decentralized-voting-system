@@ -1,0 +1,24 @@
+services:
+  ganache:
+    image: europe-west10-docker.pkg.dev/concrete-racer-274913/aic-repo/ganache:latest
+    ports:
+      - ":8545"
+
+  deployment:
+    image: europe-west10-docker.pkg.dev/concrete-racer-274913/aic-repo/deployment:latest
+    depends_on:
+      - ganache
+  
+  server:
+    image: europe-west10-docker.pkg.dev/concrete-racer-274913/aic-repo/server:latest
+    depends_on:
+      - deployment
+    ports:
+      - ":3000"
+
+  frontend:
+    image: europe-west10-docker.pkg.dev/concrete-racer-274913/aic-repo/ui:latest
+    depends_on:
+      - server
+    ports:
+      - ":3001"

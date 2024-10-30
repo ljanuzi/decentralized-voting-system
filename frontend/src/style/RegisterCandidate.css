@@ -1,0 +1,105 @@
+.ui.menu.navbar {
+    background-color: #c9f0d3 !important;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .ui.menu.navbar .item {
+    color: #313131 !important;
+  }
+  
+  .ui.menu.navbar .item:hover {
+    background-color: #5f867a !important;
+    color: #313131 !important;
+  }
+  
+  /* Teal button */
+  .ui.button {
+    background-color: #77b1a9 !important;
+    color: #ffffff !important;
+  }
+  
+  .ui.button:hover {
+    background-color: #c4aa33 !important;
+  }
+  
+  /* Accent color */
+  .accent-element {
+    color: #c4aa33;
+  }
+  
+  /* Highlight color */
+  .highlight-element {
+    background-color: #c9f0d3;
+    color: #4b5d67;
+  }
+  
+  /* Header styles */
+  .ui.header.mainHeader {
+    color: #d8e0e8 !important; /* Ensuring the main header uses the theme color */
+  }
+  
+  .ui.header.subHeader {
+    color: #77b1a9 !important; /* Ensuring the sub headers use the theme accent color */
+  }
+  
+  .ui.header.tealHeader {
+    color: #77b1a9 !important;
+  }
+  
+  /* Custom Segment */
+  .formSegment, .customInput {
+    background-color: #4b5d67 !important; /* Match the background color */
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove box shadow */
+  }
+  
+  /* Custom Input */
+  .publicKeyInput input {
+    background-color: #d8e0e8 !important;
+    color: #77b1a9 !important;
+  }
+  
+  .logoImage {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px; /* Add some spacing below the image */
+  }
+  
+  @media (max-width: 768px) {
+    .logoImage {
+      display: none; /* Hide on small screens */
+    }
+  }
+  
+  /* Modal Custom Styles */
+.customModal .content {
+    color: #313131 !important;
+    font-size: 1.5em !important;
+  }
+  
+  .customModal .actions {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+  
+  .customModal .actions .ui.button {
+    margin-bottom: 10px !important;
+    width: 100% !important; /* Make buttons full width */
+  }
+  
+  .customModal .actions .ui.positive.button {
+    margin-top: 0 !important;
+  }
+
+  .customModal .actions .ui.negative.button {
+    background-color: #db2828 !important; /* Red color for cancel button */
+    color: #ffffff !important;
+  }
+
+  .customModal .actions .ui.negative.button:hover {
+    background-color: #a50f0f !important; /* Darker red on hover */
+  }
+  
+  

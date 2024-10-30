@@ -1,0 +1,14 @@
+FROM node:18.20.2-bullseye-slim as base
+
+WORKDIR /app
+
+COPY middleware/ /app/middleware
+COPY google_auth.json /app/middleware
+
+WORKDIR /app/middleware
+
+RUN npm install
+
+ENV GOOGLE_APPLICATION_CREDENTIALS=/app/middleware/google_auth.json
+
+CMD ["bash","-c","npm run cloud"]

@@ -1,0 +1,11 @@
+# base image - node:alpine
+FROM node:18.20.2-bullseye-slim as base
+
+# set the working directory to /app
+WORKDIR /app
+
+# install ganache globally
+RUN npm install -g ganache
+
+# command to start ganache
+CMD ["ganache-cli","-h","0.0.0.0"]

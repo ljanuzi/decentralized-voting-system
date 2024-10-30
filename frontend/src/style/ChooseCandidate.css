@@ -1,0 +1,33 @@
+.customContainer {
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .customContainer .formSegment {
+    background-color: #c8d7cb, !important;
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove box shadow */
+  }
+  
+  .customContainer .subHeader {
+    color: #77b1a9 !important; /* Adjust subHeader color */
+  }
+  
+  .customContainer .teal.button {
+    background-color: #77b1a9 !important; /* Adjust button color */
+  }
+  
+  .customContainer .teal.button:hover {
+    background-color: #c4aa33 !important; /* Adjust button hover color */
+  }
+  
+  .customContainer .negative.message {
+    background-color: #4b5d67 !important; /* Adjust negative message background color */
+    color: #d8e0e8 !important; /* Adjust negative message text color */
+  }
+
+  /* ChooseCandidate.css */
+ .radioOutline input[type="radio"]:checked + .radioLabel:before {
+    background-color: #77b1a9 !important;
+    box-shadow: 0 0 0 1px #77b1a9 inset !important;
+  }
+  

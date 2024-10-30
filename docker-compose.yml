@@ -1,0 +1,30 @@
+services:
+  ganache:
+    build:
+      context: .
+      dockerfile: Dockerfile.ganache
+    ports:
+      - "8545:8545"
+
+  deployment:
+    build: .
+    depends_on:
+      - ganache
+  
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.middleware
+    depends_on:
+      - deployment
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    depends_on:
+      - server
+    ports:
+      - "3001:3001"
